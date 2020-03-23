@@ -1,0 +1,24 @@
+// Change the consumers table to the below table
+CREATE TABLE `consumer` (
+ `consumer_id` int(11) NOT NULL AUTO_INCREMENT,
+ `username` varchar(16) NOT NULL,
+ `email` varchar(32) NOT NULL,
+ `passwordhash` varchar(64) NOT NULL,
+ `firstname` varchar(10) NOT NULL,
+ `lastname` varchar(10) NOT NULL,
+ PRIMARY KEY (`consumer_id`),
+ UNIQUE KEY `superkey` (`username`,`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+
+
+// Change the vendors table to the below table
+CREATE TABLE `vendor` (
+ `vendor_id` int(11) NOT NULL AUTO_INCREMENT,
+ `username` varchar(16) NOT NULL,
+ `email` varchar(32) NOT NULL,
+ `passwordhash` varchar(64) NOT NULL,
+ `vendor_rating` decimal(2,2) NOT NULL,
+ `address` varchar(128) NOT NULL,
+ PRIMARY KEY (`vendor_id`),
+ UNIQUE KEY `superkey` (`username`,`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
