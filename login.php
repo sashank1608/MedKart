@@ -18,13 +18,13 @@
 	<div class="row">
 		<div class="col-md-4 col-sm-4 col-xs-4" id="logo" >
 			<a href="index.html" class="logo-text">
-				Med<span style="color:#39BAF0; font-size:40px">Kart</span>
+				Medi<span style="color:#39BAF0; font-size:40px">Kart</span>
 			</a>		
 		</div>
 		<div class="col-md-2 col-sm-12 col-xs-12" style="display:none " id="navbar_hide" >
 			<nav  role="navigation" class="navbar navbar-inverse">
 				<a href="index.html" style="float: left" class="logo-text">
-					Med<span style="color:#39BAF0; font-size:40px">Kart</span>
+					Medi<span style="color:#39BAF0; font-size:40px">Kart</span>
 				</a>
 				<div id="nav">
 					<div class="navbar-header">
@@ -84,7 +84,7 @@
 							By creating a vendor account at MedKart you will be able to sell your medicines to our consumers at convinient prices.
 							Create an account and get startred now !
 						</p>
-						<a class="btn btn-primary reg_button" href="/medkart/vendor_register.php">
+						<a class="btn btn-primary reg_button" href="/vendor_register.php">
 							<i class="fa fa-caret-right"></i>&nbsp;
 							Vendor Registration
 						</a>
@@ -93,7 +93,7 @@
 							By creating a consumer account at MedKart you will have access to our high quality medicines at the best possible prices.
 							Let's get started !
 						</p>
-						<a class="btn btn-primary reg_button" href="/medkart/register.php">
+						<a class="btn btn-primary reg_button" href="/register.php">
 							<i class="fa fa-caret-right"></i>&nbsp;
 							Consumer Registration
 						</a>
@@ -114,7 +114,7 @@
 											<input required type="password" class="form-control" id="input-password" placeholder="Password" value="" name="password">
 										</div>
 										<div class="form-check   col-sm-8">
-											<input class="form-check-input" name = "isvendor" type="checkbox" value="" id="vendorCheck">
+											<input class="form-check-input" name = "isvendor" type="checkbox" value="Yes" id="vendorCheck">
 											<label class="form-check-label" for="vendorCheck">
 												I am a vendor
 											</label>
